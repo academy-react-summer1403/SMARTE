@@ -1,0 +1,101 @@
+.Services-title-section {
+    position: relative;
+    text-align: center;
+    margin: 70px 0;
+    background-image: url('../../../assets/images/Background/backgroundServices.png');
+    background-size: 53%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 470px;
+}
+
+.Services-container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto; 
+}
+
+.Services-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.Services-circle {
+    width: 12px;
+    height: 12px;
+    background-color: #10c6c6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services-subtitle {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px; 
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 73px;
+    max-width: 1018px;
+    margin: 0px auto;
+      margin-top: 0px;
+    margin-top: 220px;
+}
+.service-box {
+    width: 140%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+.service-box-up {
+    position: relative;
+    top: -136px;
+    transition: top 0.3s;
+}
+.service-image-container h3 {
+    font-size: 18px;
+    margin: 10px 0 5px; 
+    text-align: center;
+    position: relative;
+  bottom: 130px;
+}
+
+.service-image-container p {
+    font-size: 10px;
+    color: #666;
+    margin: 0; 
+    text-align: center; 
+    position: relative;
+  bottom: 120px;
+  max-width: 200px;
+}
+.circle-service-box {
+    width: 76px;
+    height: 72px;
+    /* background-color: #10c6c6; */
+    border-radius: 50%;
+    position: relative;
+    top: -45px;
+    left: 63%;
+    transform: translateX(-50%);
+}
+.Services-icon-container{
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}

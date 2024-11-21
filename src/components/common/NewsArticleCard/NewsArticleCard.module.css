@@ -1,0 +1,67 @@
+.boxnews {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #ccc;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    width: 291px;
+    height: 410px;
+    font-size: 14px;
+  }
+  
+  .image {
+    width: 251px;
+    height: 171px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .title {
+    margin: 15px 0 10px; 
+    font-size: 20px; 
+  }
+  
+  .description {
+    margin: 10px 0; 
+    font-size: 11px; 
+  }
+  
+  .iconContainer {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 15px 0; 
+  }
+  
+  .icon img {
+    width: 17px; 
+    height: 17px; 
+  }
+  
+  .iconText {
+    font-size: 11px; 
+    margin-left: 5px; 
+    align-self: center; 
+  }
+  
+  .readMoreButton {
+    display: flex; 
+    align-items: center;
+    color: rgba(212, 115, 0, 1);
+    background-color: transparent; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .readMoreIcon {
+    width: 12px;
+    height: 10px;
+    margin-left: 59px;
+    margin-top: 6px;
+  }
+  

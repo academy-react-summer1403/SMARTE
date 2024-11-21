@@ -1,0 +1,188 @@
+
+.container {
+    max-width: 100%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .formContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  
+  .inputRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .inputRow label {
+    width: 48%;
+  }
+  
+
+  .leftColumn {
+    width: 55%; 
+  }
+  
+  .leftColumn label {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+  }
+  
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px; 
+    margin-top: 20px;
+  }
+  
+  .cancelButton, .saveButton {
+    display: flex;
+    align-items: center; 
+    background: rgba(245, 245, 245, 1);
+
+    color: rgba(212, 212, 212, 1);
+
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .saveButton {
+    background: rgba(0, 224, 219, 1);
+   
+    color: rgba(0, 59, 57, 1);
+
+
+  }
+  
+  .icon {
+    width: 18px; 
+    height: 18px;
+    margin-left: 8px; 
+  }
+  
+  
+  @media (max-width: 900px) {
+    .formContainer {
+      flex-direction: column;
+    }
+  
+    .rightColumn {
+      width: 100%;
+    }
+  
+    .leftColumn {
+      width: 100%;
+    }
+  
+    .inputRow {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .inputRow label {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .formContainer {
+      flex-direction: column;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+
+.aboutInput {
+    width: 90%; 
+    height: 150px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    resize: vertical; 
+    margin-top: 32px;
+  }
+  
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 32px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+  }
+  .profilePictureContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .profilePictureLabel {
+    cursor: pointer;
+  }
+  
+  .profilePicture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd;
+    margin-right: 260px;
+    margin-top: 20px;
+  }
+  
+  .profilePictureInput {
+    display: none; 
+  }
+    

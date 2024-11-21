@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    justify-content: center;
+   
+    text-align: right;
+  }
+  
+  .card {
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 100%;
+    background: rgba(246, 255, 255, 1);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 160px;
+  }
+  
+  .colImage {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .colInfo {
+    flex: 2;
+  }
+  
+  .profileImage {
+    width: 50px;
+  height: 50px;
+  margin-bottom: -21px;
+  position: relative;
+  bottom: 22px;
+  left: 400px;
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .infoText {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: rgba(204, 110, 0, 1);
+    line-height: 1.5;
+  }
+  
+  .infoText strong {
+    color: #444;
+    font-weight: 600;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .addressText {
+    font-size: 15px;
+    color: #666;
+    margin-top: 5px;
+  }
+  .additionalImageContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .additionalImage {
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+  position: relative;
+  right: 160px;
+  bottom: 135px;
+  }
+  .editButtonContainer {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .editButton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgba(0, 86, 83, 1);
+    padding: 10px 23px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    height: 30px;
+    border-radius: 25px;
+     border: 1px solid rgba(1, 206, 201, 1);
+     background: rgba(246, 255, 255, 1);
+  }
+  
+  
+  .editIcon {
+    width: 13px;
+    height: 13px;
+    margin-top: 2px;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .card {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .profileImage {
+      width: 100px;
+      height: 100px;
+    }
+    .infoText {
+      font-size: 14px;
+    }
+  }
+  

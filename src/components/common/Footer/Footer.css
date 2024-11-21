@@ -1,0 +1,133 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+    width: 100%;
+    background-image: url('../../../assets/images/Background/Rectangle 14.png');
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 100px;
+  }
+  .footer-img{
+
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-logo img {
+    max-width: 115px;
+    margin-bottom: 20px; 
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: -21px;
+  }
+  
+  .footer-button {
+    background-color: #0a7f7f; 
+    border: 1px solid #fff;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .footer-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .footer-text {
+    font-size: 13px;
+    color: #6f6e6e;
+    margin-left: auto;
+    margin-top: 60px;
+    max-width: 484px;
+    padding-right: 122px;
+  }
+  
+  .footer-heading {
+    margin-left: auto;
+    font-size: 16px;
+    color: #333;
+    max-width: 404px;
+    margin-top: 15px;
+    padding-right: 128px;
+  }
+  .footer-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 20px; 
+    row-gap: 5px; 
+    list-style-type: none; 
+    padding: 0;
+    margin-right: auto;
+    margin-top: -125px;
+    padding-left: 340px;
+    text-align: right;
+  }
+  
+  .footer-list li {
+    position: relative;
+    padding-right: 0;
+    font-size: 15px;
+  }
+  
+  .footer-list li::before {
+    content: '•'; 
+    position: absolute;
+    right: -10px; 
+    color: #000; 
+  }
+  
+  
+ 
+.image-box {
+  height: 119px;
+  margin-top: -105px;
+  margin-right: auto;
+  padding-left: 172px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footer-rights-box {
+    width: 100%;
+    background-color: #0a7f7f;
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  
+  position: relative;
+  top: 28px;
+  }
+  
+  .footer-rights {
+    font-size: 14px; 
+    color: #ffffff;
+  }
+  
+  
+  
+  

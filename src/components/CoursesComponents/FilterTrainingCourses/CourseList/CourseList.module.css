@@ -1,0 +1,11 @@
+.slider {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+  }
+  
+  .horizontal {
+    flex-direction: row; 
+  }
+  
+  

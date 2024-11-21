@@ -1,0 +1,135 @@
+.showcaseContainer {
+    display: flex; 
+    margin: 0 auto; 
+    padding: 20px; 
+    gap: 60px; 
+  }
+  
+  .imageContainer {
+    width: 700px; 
+    height: 395px; 
+    margin-left: 15px; 
+    border-radius: 8px; 
+  }
+  
+  .courseImage {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+  }
+  
+  .textContainer {
+    width: 700px; 
+    height: 436px; 
+    padding-left: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    background: rgba(255, 255, 255, 1);
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .courseTitle {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+  }
+  
+  .courseDescription {
+    font-family: 'B Yekan', sans-serif; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 28.37px; 
+    text-align: justify; 
+    margin-top: 10px; 
+    margin-bottom: 47px; 
+    max-width: 667px;
+   color: rgba(119, 119, 119, 1);
+
+  }
+  
+ 
+  .courseTitle {
+    font-family: 'B Yekan', sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 41.14px;
+  text-align: right;
+  position: relative;
+  bottom: 45px;
+  right: 20px;
+  }
+  
+  .icon {
+    width: 20px;
+  height: 20px;
+  position: relative;
+  bottom: 86px;
+  left: 5px;
+  }
+  .icon1 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 53px;
+    top: 2px;
+  }
+  .iconContainer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .iconText {
+    font-size: 17px;
+  text-align: right;
+  position: relative;
+  left:  500px;
+  color: rgba(0, 91, 88, 1);
+  }
+  
+  .button {
+    width: 350px;
+    height: 55px;
+    background: rgba(255, 138, 0, 1);
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 158px;
+  }
+  
+  .buttonIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    position: relative;
+    left: 172px;
+  }
+  .TextButton{
+    position: relative;
+    left: 108px;
+    font-size: 20px;
+  }
+  .iconText1 {
+    font-size: 17px;
+    text-align: right;
+    position: relative;
+    /* left: 500px; */
+    right: 341px;
+    color: rgba(0, 91, 88, 1);
+
+  }
+  .icon2 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 53px;
+    top: 2px;
+  }

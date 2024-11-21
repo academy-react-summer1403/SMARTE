@@ -1,0 +1,153 @@
+.dashboardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  height: 100%;
+  direction: ltr;
+}
+
+.contentContainer {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+  z-index: 1;
+  width: 1069px;
+  height: 813px;
+  direction: rtl;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+  background-color: #ffffff; 
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 1131px;
+  top: 33px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 100%;
+  background: rgba(1, 206, 201, 1);
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 0px 10px 10px 0px;
+  background-image:url('../../../assets/images/Background/backgroundDashboard.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 74%;
+}
+
+.sidebarLink {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 104%;
+  height: 56px;
+  text-align: center;
+  border-radius: 0px 25px 25px 0px;
+  position: relative;
+  right: 17px;
+}
+
+.sidebarLink img {
+  width: 20px;
+  height: 20px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.sidebarLink:hover {
+  background: rgba(255, 255, 255, 1);
+  border-left: 4px solid orange;
+  
+}
+.active {
+  background: rgba(255, 255, 255, 1);
+  border-left: 4px solid orange;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 930px;
+  margin-top: 39px;
+  padding: 0 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+  margin: 0 5px; 
+  display: flex; 
+  align-items: center; 
+  padding: 10px;
+  border-radius: 50%; 
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: rgba(16, 198, 198, 0.2); 
+}
+
+.account-button {
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent; 
+  color: #ffffff;
+}
+
+.logo {
+  height: 50px; 
+}
+
+.account-icon {
+  width: 20px; 
+  height: 20px;
+}
+.title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 25px;
+  margin-right: -11px;
+}
+.logoutButton {
+  background: rgba(1, 206, 201, 1);
+  border: none;
+  font-size: 15px;
+  margin-top: 17px;
+  margin-left: 28px;
+}
+.iconButton{
+  width: 20px;
+  height: 20px;
+  margin-left: 127px;
+  position: relative;
+  bottom: 19px;
+}

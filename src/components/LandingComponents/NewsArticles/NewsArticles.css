@@ -1,0 +1,221 @@
+.NewsArticles-title-section {
+    position: relative; 
+    text-align: center; 
+    margin: 70px 0;
+    z-index: 1; 
+}
+
+.NewsArticles-title-section::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../../assets/images/Background/backgroundbody.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.3;  */
+    z-index: -1; 
+}
+.NewsArticles-container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto; 
+}
+
+.NewsArticles-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.NewsArticles-circle {
+    width: 12px;
+    height: 12px;
+    background-color: #10c6c6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.NewsArticles-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5px; 
+    font-size: 16px;
+    color: gray;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    margin: 20px auto; 
+    max-width: 1000px;
+    padding: 10px; 
+}
+
+
+.square {
+    /* background-color: #333; */
+    height: 250px; 
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+
+
+.rectangle {
+    /* background-color: #10c6c6; */
+    height: 180px; 
+    grid-column: span 2; 
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top:10px;
+}
+.rectangle-images {
+    height: 100%; 
+    width: 100%;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px; 
+    /* left: 0; */
+    width: 90%;
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.251); 
+    padding: 5px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: url(../../../assets/images/Cursor/Vector.png),auto;
+}
+.mt-custom {
+    position: relative;
+    bottom: 49px;
+}
+
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr; 
+        max-width: 100%; 
+    }
+
+    .rectangle, .square {
+        grid-column: span 1; 
+    }
+}
+
+  
+  
+  .overlay {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    width: 96%;
+    height: 97%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.81);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    cursor: url(../../../assets/images/Cursor/Vector.png),auto;
+  }
+  .overlay-rectangle {
+    position: absolute;
+    top: -8px;
+    left: 6px;
+    width: 98%;
+    height: 107%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.81);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: url(../../../assets/images/Cursor/Vector.png),auto;
+  }
+  .image-container:hover img {
+    opacity: 0.8; 
+   
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1; 
+   
+  }
+  .image-container:hover .overlay-rectangle {
+    opacity: 1; 
+   
+  }
+  
+  .more-info-btn {
+    background: rgba(108, 58, 0, 1);
+    border: none;
+   height: 25px;
+   width: 100px;
+    font-size: 15px;
+    cursor: url(../../../assets/images/Cursor/Vector.png),auto;
+    border-radius: 5px;
+  }
+
+.button-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.view-more-btn {
+    background-color: transparent;
+    border: none;
+    color: #6c757d; 
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    transition: color 0.3s ease; 
+}
+
+.view-more-btn:hover {
+    color: #5a6268; 
+}
+
+.arrow {
+    font-size: 17px;
+    margin: 5px; 
+    color: #6c757d; 
+}
+
+.arrow:hover {
+    color: #5a6268; 
+}

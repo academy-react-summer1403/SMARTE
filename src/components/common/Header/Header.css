@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 25px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+
+.header-center {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.header-title-container {
+  position: relative; 
+  cursor: pointer; 
+  padding: 10px 0; 
+  transition: color 0.3s; 
+}
+
+.header-title {
+  margin: 0 15px; 
+  font-size: 16px; 
+  color: #333; 
+  transition: color 0.3s;
+}
+
+.header-title:hover {
+  color: #10c6c6; 
+}
+
+.orange-line {
+  position: absolute;
+  width: 100%; 
+  height: 3px; 
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, orange 50%, rgba(255, 255, 255, 0) 100%); /* محو شدن به سفید در طرفین */
+  bottom: -5px;
+  left: 0; 
+  border-radius: 30px; 
+}
+
+
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+  margin: 0 5px; 
+  display: flex; 
+  align-items: center; 
+  padding: 5px 10px;
+  border-radius: 15px; 
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: rgba(16, 198, 198, 0.2); 
+}
+
+.account-button {
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent; 
+  background-color: #10c6c6;
+  color: #ffffff;
+}
+.logo {
+  height: 50px; }
+.cart-button:hover,
+.heart-button:hover {
+  background-color: rgba(16, 198, 198, 0.2); 
+}
+.heart-icon,
+.cart-icon {
+  width: 20px; 
+  height: 20px; 
+}
+.account-icon {
+  width: 20px; 
+  height: 20px;
+  margin-right: 5px;
+}

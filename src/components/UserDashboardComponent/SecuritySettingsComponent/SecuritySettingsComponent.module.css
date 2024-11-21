@@ -1,0 +1,146 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .lineWithIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  .headerText1 {
+    margin: 0;
+    font-size: 24px;
+    position: absolute;
+  }
+  .headerText {
+    margin: 0;
+    font-size: 17px;
+    color: rgba(151, 151, 151, 1);
+  }
+  
+  .iconContainer {
+    position: absolute;
+    right: -30px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 114px;
+  }
+  
+  .inputSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: right;
+    color: rgba(151, 151, 151, 1);
+
+  }
+  
+  .input {
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 50px;
+  }
+  
+  .submitButton {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 224, 219, 1);
+    height: 30px;
+    width: 132px;
+    color: rgba(0, 59, 57, 1);
+    padding-right: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .submitIcon {
+    width: 15px;
+  height: 15px;
+  margin-right: 18px;
+  }
+  .checkboxSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 48px;
+  }
+  
+  .checkbox {
+    margin-left: 10px;
+  }
+  
+  .checkboxText {
+    font-size: 17px;
+    color:  rgba(0, 80, 78, 1);
+
+    margin: 0;
+    display: inline;
+  }
+  .inputSection {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: right;
+    color: rgba(151, 151, 151, 1);
+  }
+  
+  .inputText {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  .input2{
+    width: 40%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 50px;
+    text-align: left;
+    padding-left: 20px;
+  
+  }
+ 

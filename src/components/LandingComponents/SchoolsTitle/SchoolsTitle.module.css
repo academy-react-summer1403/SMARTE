@@ -1,0 +1,96 @@
+.title-section {
+    padding: 20px;
+    text-align: right; 
+    margin: 70px 0;
+    background-image: url('../../../assets/images/Background/backgroundSchoolsTitle.png');
+    background-size: 100%;
+    background-position: 50% 105%;
+    background-repeat: no-repeat;
+    height: 470px;
+    position: relative;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 170px;
+    margin-right: 50px;
+    color: rgba(0, 104, 101, 1);
+
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: auto;
+    text-align: right;
+    max-width: 445px;
+    width: 104%;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-top: 50px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    position: relative;
+    right: 411px;
+    top: 16px;
+}
+
+.searchInput {
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    flex: 1; 
+    max-width: 400px; 
+    text-align: right;
+    margin-right: 10px;
+}
+.img{
+    position: absolute;
+    bottom: -17px;
+    left: 154px;
+    width: 45%;
+}
+.student{
+    width: 200px;
+    height: 105px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 400px;
+    left: 126px;
+    background-color: #fff;
+    font-size: 25px;
+  text-align: center;
+  line-height: 137px;
+}
+.teacher{
+    width: 200px;
+    height: 105px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -94px;
+    left: 667px;
+    background-color: #fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 137px;
+}
+.schoolImage{
+    position: absolute;
+    bottom: 59px;
+    left: 61px;
+
+}

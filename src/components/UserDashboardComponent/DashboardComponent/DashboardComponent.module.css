@@ -1,0 +1,226 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .topRow {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .box {
+    flex: 1;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .roundedBox {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 8px solid #f0f0f0;
+  }
+  .roundedBox {
+    border-radius: 50% ;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 8px solid rgba(228, 137, 0, 1);
+    border-left: 8px solid rgba(228, 137, 0, 1);
+    border-right: 8px solid rgba(228, 137, 0, 1);
+
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 51px;
+    right: 58px;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .boxTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgba(0, 106, 103, 1);
+
+  }
+  
+  .boxDescription {
+    font-size: 14px;
+    margin: 0;
+    color:  rgba(167, 167, 167, 1);
+
+  }
+  
+  .largeBox {
+    width: 97%;
+  background: rgba(246, 255, 255, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  }
+  
+  .largeBoxRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #333;
+  }
+  
+  .largeBoxLeft {
+    flex: 1;
+  }
+  
+  .largeBoxCenter {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .largeBoxRight {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .largeBoxIcon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 38px;
+  }
+  
+  .largeBoxTitle {
+    font-size: 18px;
+  font-weight: bold;
+  margin-left: 355px;
+  }
+  
+  .largeBoxDescription {
+    font-size: 14px;
+    color: #333;
+    font-family: 'B Yekan', sans-serif;  
+    font-weight: 400;                    
+    line-height: 19.86px;               
+    text-align: right;                   
+  }
+  
+  
+  .bottomRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: -40px;
+  }
+  
+  .smallBox {
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .buttonContainer{
+    position: relative;
+  }
+  .moreButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: rgba(183, 183, 183, 1);
+background: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+  top: 218px;
+  }
+  
+ 
+  
+  .buttonIcon {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .boxTitle1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 77px;
+    max-width: 263px;
+   
+
+  }
+  
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .boxIcon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .moreButton1 {
+    font-size: 11px;
+    position: relative;
+    left: 318px;
+    top: 17px;
+    color: rgba(38, 180, 175, 1);
+    border: none;
+    background: #fff;
+  }
+  .buttonIcon1 {
+    position: relative;
+    right: 66px;
+    bottom: 12px;
+    
+  }
+  .buttonIcon2 {
+    position: relative;
+    left: -88px;
+    bottom: 10px;
+    
+  }
+  .boxIcon1 {
+    position: relative;
+    right: 55px;
+  }

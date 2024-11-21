@@ -1,0 +1,118 @@
+
+
+.headlinesContainer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+    color: rgba(0, 83, 81, 1);
+    margin-bottom: 86px;
+  }
+  
+  .headlineList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 859px;
+    margin-left: 33px;
+  }
+  
+  .headlineItem {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+  }
+  
+  .headlineItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .headlineTitle {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+  }
+  
+  .headlineContent {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  .headlineTitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+ 
+  .headlineIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+.headlineItem.activeHeadline {
+    background-color: rgba(0, 226, 220, 1); 
+  }
+  
+
+  .headlineContent p {
+    font-size: 16px;             
+    color: #333;                    
+    padding: 10px 15px;       
+    margin: 10px 0;              
+    background-color: rgba(238, 255, 255, 1); 
+    border-radius: 8px;            
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease;   
+    text-align: right;
+  }
+  
+  .headlineContent p img {
+    width: 20px;                    
+    height: 20px;                 
+    margin-right: 10px;            
+  }
+  
+  
+  
+  
+
+  .headlineTitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+
+  .headlineIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+  .timeContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+  }
+  

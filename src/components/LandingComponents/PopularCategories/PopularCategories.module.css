@@ -1,0 +1,110 @@
+.title-section {
+    position: relative;
+    text-align: center;
+    margin: 160px 0;
+    z-index: 1;
+    /* height: 470px; */
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto; 
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background-color: #10c6c6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px; 
+}
+
+
+
+
+
+.diamond-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; 
+    margin: 80px 0; 
+    background-image: url('../../../assets/images/Background/Rectangle 14(1).png');
+    background-size: 100%;
+    background-position: 50% 105%;
+    background-repeat: no-repeat;
+    height: 502px;
+    position: relative; 
+}
+
+
+.diamond {
+    width: 160px; 
+    height: 160px; 
+    background-color: #ffffff; 
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 104, 101, 1);
+    font-size: 16px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    padding: 10px; 
+    cursor: pointer;
+}
+
+
+.diamond:hover {
+    background-color: orange; 
+    color: #fff; 
+    transform: rotate(45deg) scale(1.05); 
+}
+
+
+.diamond-title {
+    font-size: 18px;
+  text-align: center;
+  transform: rotate(-45deg);
+  margin-right: 43px;
+}
+
+
+.icon-container {
+    margin-top: 10px; 
+}
+
+
+.icon {
+    width: 40px; 
+    height: 40px; 
+    display: block; 
+    transform: rotate(-45deg);
+    position: relative;
+  top: 0;
+  left: 23px;
+}
+.diamond:hover .icon {
+    filter: brightness(0) invert(1); 
+}

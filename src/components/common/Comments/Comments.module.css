@@ -1,0 +1,152 @@
+
+
+.commentsContainer {
+    padding: 20px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 152px;
+    color: rgba(0, 83, 81, 1);
+    margin-bottom: 86px;
+
+}
+
+.box {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    width: 753px;
+    right: 21px;
+}
+
+.button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 226, 220, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.commentWrapper {
+    margin-top: 20px;
+    background: rgba(249, 249, 249, 1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.commentContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    direction: rtl;
+    padding-bottom: 20px;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 21px;
+    position: relative;
+    right: 13px;
+}
+
+.profileIcon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.userTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 232px;
+}
+
+.userTitle {
+    font-weight: bold;
+}
+
+.userSubtitle {
+    color: #555;
+    font-size: 14px;
+}
+
+.leftIcons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.smallIcon {
+    width: 15px;
+    height: 15px;
+}
+
+
+.descriptionContainer {
+    padding: 40px; 
+    border-top: 1px solid #ddd; 
+}
+
+
+.description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    text-align: right;
+}
+.commentContent1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    direction: rtl;
+    padding-bottom: 100px;
+    background: rgba(236, 236, 236, 1);
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-right: 4px solid rgba(1, 206, 201, 1)
+}
+.profile1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 21px;
+    position: relative;
+    right: 13px;
+}
+.text{
+border-top: 1px solid #ddd;
+position: relative;
+bottom: 100px;
+margin: 15px;
+font-size: 14px;
+text-align: right;
+}

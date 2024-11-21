@@ -1,0 +1,22 @@
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 45px;
+}
+
+.buttonperpendicular,
+.buttonlateral {
+  border: 1px solid #ccc; 
+  background: transparent; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 8px 0px;
+}
+
+.buttonperpendicular img,
+.buttonlateral img {
+  width: 24px; 
+  height: 24px; 
+}
