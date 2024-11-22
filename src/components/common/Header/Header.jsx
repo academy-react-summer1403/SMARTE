@@ -43,7 +43,7 @@ const Header = () => {
     } else if (title === 'اخبار مقالات') { 
       navigate('/articles'); 
     } else if (title === 'حساب کاربری') { 
-      navigate('/userDashboard'); 
+      navigate('/signUp'); 
     }
   };
 

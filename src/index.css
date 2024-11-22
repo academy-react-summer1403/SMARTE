@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face{
+    src: url('../public/fonts/BYekan+.ttf');
+    font-family: yek;
+}
+@font-face{
+    src: url('../public/fonts/BYekan+\ Bold.ttf');
+    font-family: yekBold;
+}
+
+.bgRegister{
+    background: url('../public/imgLand/register/Rectangle\ 81.png') no-repeat ;
+    background-size: 100% 100%;
+  }
+  .bgLogin{
+    background: url('../public/imgLand/login/Rectangle\ 81.png') no-repeat ;
+    background-size: 100% 100%;
+  }
+  .bgStep1{
+    background: url('../public/imgLand/register/Rectangle\ 84.png') no-repeat ;
+    background-size: 100% 100%;  
+    background-position: right;
+  }
+  .bgStep2{
+    background: url('../public/imgLand/register/Rectangle\ 84\(2\).png') no-repeat ;
+    background-size: 100% 100%;  
+    background-position: right;
+  }
+  .bgStep3{
+    background: url('../public/imgLand/register/Rectangle\ 84\(3\).png') no-repeat ;
+    background-size: 100% 100%;  
+    background-position: right;
+  }

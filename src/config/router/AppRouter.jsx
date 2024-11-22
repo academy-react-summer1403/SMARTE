@@ -19,6 +19,8 @@ import { MyComments } from '../../screens/UserDashboard/MyComments/MyComments'
 import { MyCourses } from '../../screens/UserDashboard/MyCourses/MyCourses'
 import { ReservedCourses } from '../../screens/UserDashboard/ReservedCourses/ReservedCourses'
 import { SecuritySettings } from '../../screens/UserDashboard/SecuritySettings/SecuritySettings'
+import NewRegister from '../../components/Register/SignUp/NewRgister';
+import Login from '../../components/Register/Login/Login';
 
 
 const AppRouter = () => {
@@ -75,6 +77,14 @@ const AppRouter = () => {
         { path: 'favorites', element: <Favorites /> },
         { path: 'securitySettings', element: <SecuritySettings /> }
       ]
+    },
+    {
+      path:'/signUp',
+      element:<NewRegister/>
+    },
+    {
+      path:'/signIn',
+      element:<Login/>
     }
   ]);
   
