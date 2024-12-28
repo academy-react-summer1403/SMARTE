@@ -36,7 +36,7 @@ const ThirdStep = ({ setStepCounter }) => {
                     />
                     <Field
                         name="repeatpassword"
-                        placeholder="  تایید رکز عبور  "
+                        placeholder="  تایید رمز عبور  "
                         className="h-[40px] w-[100%]  rounded-[10px] shadow-inner bg-gray-50 mb-2"
                     />
                     <div className="flex justify-center mb-5">
