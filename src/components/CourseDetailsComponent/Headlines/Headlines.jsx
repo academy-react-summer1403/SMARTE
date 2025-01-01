@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import styles from './Headlines.module.css';
 
-// Import images
+
 import HeadlineIcon from '../../../assets/images/icon/Frame(37).png';
 import ContentIcon from '../../../assets/images/icon/Frame(38).png';
 

@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// SearchTrainingCourses.jsx
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import styles from './SearchTrainingCourses.module.css';

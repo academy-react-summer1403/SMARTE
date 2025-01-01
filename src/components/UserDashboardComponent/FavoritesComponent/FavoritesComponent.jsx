@@ -4,7 +4,7 @@ import { Formik, Form, Field } from 'formik';
 import { Table, Button, Row, Col } from 'react-bootstrap';
 import styles from './FavoritesComponent.module.css';
 
-// وارد کردن تصاویر
+
 import CourseImage1 from '../../../assets/images/Ellipse 48.png';
 import CourseImage2 from '../../../assets/images/Ellipse 48.png';
 import CourseImage3 from '../../../assets/images/Ellipse 48(1).png';
@@ -52,7 +52,7 @@ const FavoritesComponent = () => {
                   />
                   <div className={styles.inputGroup1}>
                     <img 
-                      src={SearchIcon}  // استفاده از تصویر وارد شده
+                      src={SearchIcon}  
                       alt="search icon"
                       className={styles.searchIcon} 
                     />

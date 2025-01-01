@@ -27,7 +27,6 @@ const SecondStep = ({  setStepCounter  }) => {
                     <Form>
                     <Field
                         name="phoneNumber"
-                        // placeholder=""
                         className="h-[40px] w-[100%]  rounded-[10px] shadow-inner bg-gray-50 mb-16 text-center"
                     />
                     <div className="flex justify-center">

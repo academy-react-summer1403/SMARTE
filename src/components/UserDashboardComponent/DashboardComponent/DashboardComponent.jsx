@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from './DashboardComponent.module.css'
 
-// Importing images
+
 import Icon1 from '../../../assets/images/Group 86.png';
 import Icon2 from '../../../assets/images/Group 87.png';
 import NewsIcon from '../../../assets/images/icon/Frame(48).png';

@@ -51,7 +51,7 @@ const ReservedCoursesComponent = () => {
                   />
                   <div className={styles.inputGroup1}>
                     <img 
-                      src={SearchIcon}  // استفاده از تصویر وارد شده
+                      src={SearchIcon}  
                       alt="search icon"
                       className={styles.searchIcon} 
                     />
@@ -96,7 +96,7 @@ const ReservedCoursesComponent = () => {
                 </td>
                 <td>
                   <img 
-                    src={course.seen === 'seen' ? SeenIcon : UnseenIcon}  // استفاده از تصاویر وارد شده
+                    src={course.seen === 'seen' ? SeenIcon : UnseenIcon}  
                     alt={course.seen === 'seen' ? "Seen" : "Unseen"} 
                     className={styles.statusIcon}
                   />

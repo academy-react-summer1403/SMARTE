@@ -6,7 +6,7 @@ import NewsArticleCard from '../../common/NewsArticleCard/NewsArticleCard';
 import FeatureCard from '../NewsArticlesBox/FeatureCard/FeatureCard';
 import SearcNews from '../SearcNews/SearcNews';
 
-// Importing images
+
 import Rectangle95 from '../../../assets/images/Rectangle 95.png';
 import Ellipse39 from '../../../assets/images/Ellipse 39.png';
 import Ellipse391 from '../../../assets/images/Ellipse 39(1).png';

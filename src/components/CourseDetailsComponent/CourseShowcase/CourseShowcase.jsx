@@ -3,7 +3,7 @@
 import React from 'react';
 import styles from './CourseShowcase.module.css';
 
-// Import images
+
 import CourseImage from '../../../assets/images/course detail pic.png';
 import Icon from '../../../assets/images/icon/Vector(6).png';
 import InstructorIcon from '../../../assets/images/icon/Frame(27).png';

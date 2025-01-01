@@ -4,7 +4,7 @@ import { Formik, Form, Field } from 'formik';
 import { Table, Button, Row, Col } from 'react-bootstrap';
 import styles from './MyCommentsComponent.module.css';
 
-// وارد کردن تصاویر
+
 import SeenIcon from '../../../assets/images/icon/Frame(51).png';
 import UnseenIcon from '../../../assets/images/icon/Frame(52).png';
 import SearchIcon from '../../../assets/images/icon/Frame(50).png';
@@ -49,7 +49,7 @@ const MyCommentsComponent = () => {
                   />
                   <div className={styles.inputGroup1}>
                     <img 
-                      src={SearchIcon}  // استفاده از تصویر وارد شده
+                      src={SearchIcon}  
                       alt="search icon"
                       className={styles.searchIcon} 
                     />

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import EditUserInfo from './EditUserInfo/EditUserInfo'; 
 import styles from './EditUserInfoComponent.module.css';
 
-// Import images
+
 import ProfileIcon from '../../../assets/images/icon/Frame(55).png';
 import AdditionalImage from '../../../assets/images/Ellipse 51(1).png';
 import EditIcon from '../../../assets/images/icon/Frame(57).png';
