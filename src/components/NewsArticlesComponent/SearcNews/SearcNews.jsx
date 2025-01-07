@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import styles from './SearcNews.module.css';
 import SearchButtonImage from '../../../assets/images/searchbox button(1).png';
 import coursesherosection3 from '../../../assets/images/courses hero section shape(3).png';
 
-// eslint-disable-next-line react/prop-types
+
 const SearcNews = ({ searchQuery, setSearchQuery }) => {
   return (
     <>

@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { Field, Form, Formik } from "formik";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import img from "../../../../../public/imgLand/register/step 2 _ signup.png";
 
 const SecondStep = ({  setStepCounter  }) => {

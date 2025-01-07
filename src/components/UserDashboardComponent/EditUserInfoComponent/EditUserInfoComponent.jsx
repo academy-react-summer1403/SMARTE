@@ -61,7 +61,7 @@ const EditUserInfoComponent = () => {
           <div>
             <div className={styles.colImage}>
               <img
-                src={ProfileIcon} // استفاده از تصویر وارد شده
+                src={ProfileIcon} 
                 alt="Profile Icon"
                 className={styles.profileImage}
               />
@@ -87,7 +87,7 @@ const EditUserInfoComponent = () => {
 
                 <div className={styles.additionalImageContainer}>
                   <img
-                    src={AdditionalImage} // استفاده از تصویر وارد شده
+                    src={AdditionalImage} 
                     alt="Additional Image"
                     className={styles.additionalImage}
                   />
@@ -98,7 +98,7 @@ const EditUserInfoComponent = () => {
             <div className={styles.editButtonContainer}>
               <button className={styles.editButton} onClick={handleEditClick}>
                 ویرایش
-                <img src={EditIcon} alt="Edit Icon" className={styles.editIcon} /> {/* استفاده از آیکون ویرایش وارد شده */}
+                <img src={EditIcon} alt="Edit Icon" className={styles.editIcon} /> 
               </button>
             </div>
           </div>

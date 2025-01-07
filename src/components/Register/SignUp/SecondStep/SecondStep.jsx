@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Field, Form, Formik } from "formik";
 import { Link } from "react-router-dom";
 import img from "../../../../../public/imgLand/register/step 2 _ signup.png";
