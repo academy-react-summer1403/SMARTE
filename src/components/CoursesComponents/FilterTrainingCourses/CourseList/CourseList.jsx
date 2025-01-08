@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// CourseList.jsx
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import TrainingCourseCard from '../../../common/TrainingCourseCard/TrainingCourseCard'
