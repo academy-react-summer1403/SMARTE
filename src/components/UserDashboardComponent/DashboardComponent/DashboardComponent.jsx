@@ -2,17 +2,16 @@
 import React from 'react'
 import styles from './DashboardComponent.module.css'
 
-
-import Icon1 from '../../../assets/images/Group 86.png';
-import Icon2 from '../../../assets/images/Group 87.png';
-import NewsIcon from '../../../assets/images/icon/Frame(48).png';
-import LeftArrowIcon from '../../../assets/images/icon/Frame(19).png';
-import RightArrowIcon from '../../../assets/images/icon/Frame(19).png';
-import LeftIcon from '../../../assets/images/Rectangle 111.png';
-import RightIcon from '../../../assets/images/icon/Frame(49).png';
-import FigmaIcon from '../../../assets/images/Rectangle 115.png';
-import ApiIcon from '../../../assets/images/Rectangle 113.png';
-import JsLibraryIcon from '../../../assets/images/Rectangle 117.png';
+import Icon1 from '../../../assets/images/Group 86.png'
+import Icon2 from '../../../assets/images/Group 87.png'
+import NewsIcon from '../../../assets/images/icon/Frame(48).png'
+import LeftArrowIcon from '../../../assets/images/icon/Frame(19).png'
+import RightArrowIcon from '../../../assets/images/icon/Frame(19).png'
+import LeftIcon from '../../../assets/images/Rectangle 111.png'
+import RightIcon from '../../../assets/images/icon/Frame(49).png'
+import FigmaIcon from '../../../assets/images/Rectangle 115.png'
+import ApiIcon from '../../../assets/images/Rectangle 113.png'
+import JsLibraryIcon from '../../../assets/images/Rectangle 117.png'
 
 const TeachersComponent = () => {
   return (
@@ -54,17 +53,16 @@ const TeachersComponent = () => {
             <h3 className={styles.largeBoxTitle}>جدید ترین اخبار و مقالات</h3>
           </div>
           <div className={styles.largeBoxLeft}>
-            <img
-              src={NewsIcon}
-              alt='Icon'
-              className={styles.largeBoxIcon}
-            />
+            <img src={NewsIcon} alt='Icon' className={styles.largeBoxIcon} />
           </div>
         </div>
 
         <div className={styles.largeBoxRow}>
           <div className={styles.largeBoxLeft}>
-            <p className={styles.largeBoxDescription}> دوره آموزش جامع از پایه تا پیشرفته  Next.js منتشر شد. </p>
+            <p className={styles.largeBoxDescription}>
+              {' '}
+              دوره آموزش جامع از پایه تا پیشرفته Next.js منتشر شد.{' '}
+            </p>
           </div>
           <div className={styles.largeBoxRight}>
             <p className={styles.largeBoxDescription}> ۱۴۰۲ / ۱۱ / ۳۰</p>
@@ -73,7 +71,10 @@ const TeachersComponent = () => {
 
         <div className={styles.largeBoxRow}>
           <div className={styles.largeBoxLeft}>
-            <p className={styles.largeBoxDescription}> تخفیف ویژه دوره ری اکت را از دست ندهید .</p>
+            <p className={styles.largeBoxDescription}>
+              {' '}
+              تخفیف ویژه دوره ری اکت را از دست ندهید .
+            </p>
           </div>
           <div className={styles.largeBoxRight}>
             <p className={styles.largeBoxDescription}> ۱۴۰۲ / ۱۱ / ۲۵</p>
@@ -82,7 +83,10 @@ const TeachersComponent = () => {
 
         <div className={styles.largeBoxRow}>
           <div className={styles.largeBoxLeft}>
-            <p className={styles.largeBoxDescription}> دوره آموزش  tailwind  به روز شد.</p>
+            <p className={styles.largeBoxDescription}>
+              {' '}
+              دوره آموزش tailwind به روز شد.
+            </p>
           </div>
           <div className={styles.largeBoxRight}>
             <p className={styles.largeBoxDescription}> راست</p>
@@ -124,11 +128,7 @@ const TeachersComponent = () => {
         <div className={styles.smallBox}>
           <h3 className={styles.boxTitle1}> آموزش جامع ری اکت جی اس</h3>
           <div className={styles.buttonContainer}>
-            <img
-              src={LeftIcon}
-              alt='Left Icon'
-              className={styles.boxIcon1}
-            />
+            <img src={LeftIcon} alt='Left Icon' className={styles.boxIcon1} />
             <button className={styles.moreButton1}>
               مهدی اصغری
               <img
@@ -143,11 +143,7 @@ const TeachersComponent = () => {
         <div className={styles.smallBox}>
           <h3 className={styles.boxTitle1}> آموزش کامل کار با figma</h3>
           <div className={styles.buttonContainer}>
-            <img
-              src={FigmaIcon}
-              alt='Left Icon'
-              className={styles.boxIcon1}
-            />
+            <img src={FigmaIcon} alt='Left Icon' className={styles.boxIcon1} />
             <button className={styles.moreButton1}>
               مشاهده دوره
               <img
@@ -162,11 +158,7 @@ const TeachersComponent = () => {
         <div className={styles.smallBox}>
           <h3 className={styles.boxTitle1}> پکیج آموزش کار با API های </h3>
           <div className={styles.buttonContainer}>
-            <img
-              src={ApiIcon}
-              alt='Left Icon'
-              className={styles.boxIcon1}
-            />
+            <img src={ApiIcon} alt='Left Icon' className={styles.boxIcon1} />
             <button className={styles.moreButton1}>
               محسن اسفندیاری
               <img
@@ -201,4 +193,4 @@ const TeachersComponent = () => {
   )
 }
 
-export default TeachersComponent;
+export default TeachersComponent

@@ -1,15 +1,13 @@
-
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Landing from '../../screens/Landing/Landing';
-import Courses from '../../screens/Courses/Courses';
-import NewsArticles from '../../screens/NewsArticles/NewsArticles'; 
-import DetailsNewsArticles from '../../screens/NewsArticles/Details/DetailsNewsArticles'; 
-import CourseDetails from '../../screens/Courses/Details/CourseDetails';
-import Layout from '../../app/Layout/DefaultLayout/DefaultLayout';
+import React from 'react'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Landing from '../../screens/Landing/Landing'
+import Courses from '../../screens/Courses/Courses'
+import NewsArticles from '../../screens/NewsArticles/NewsArticles'
+import DetailsNewsArticles from '../../screens/NewsArticles/Details/DetailsNewsArticles'
+import CourseDetails from '../../screens/Courses/Details/CourseDetails'
+import Layout from '../../app/Layout/DefaultLayout/DefaultLayout'
 import { UserDashboard } from '../../app/Layout/UserDashboard/UserDashboard'
-
 
 import { Dashboard } from '../../screens/UserDashboard/Dashboard/Dashboard'
 import { EditUserInfo } from '../../screens/UserDashboard/EditUserInfo/EditUserInfo'
@@ -18,9 +16,8 @@ import { MyComments } from '../../screens/UserDashboard/MyComments/MyComments'
 import { MyCourses } from '../../screens/UserDashboard/MyCourses/MyCourses'
 import { ReservedCourses } from '../../screens/UserDashboard/ReservedCourses/ReservedCourses'
 import { SecuritySettings } from '../../screens/UserDashboard/SecuritySettings/SecuritySettings'
-import NewRegister from '../../components/Register/SignUp/NewRgister';
-import Login from '../../components/Register/Login/Login';
-
+import NewRegister from '../../components/Register/SignUp/NewRgister'
+import Login from '../../components/Register/Login/Login'
 
 const AppRouter = () => {
   const router = createBrowserRouter([
@@ -30,39 +27,39 @@ const AppRouter = () => {
         <Layout>
           <Landing />
         </Layout>
-      ),
+      )
     },
     {
-      path: '/courses', 
+      path: '/courses',
       element: (
         <Layout>
           <Courses />
         </Layout>
-      ),
+      )
     },
     {
-      path: '/courses/:id', 
+      path: '/courses/:id',
       element: (
         <Layout>
-          <CourseDetails /> 
+          <CourseDetails />
         </Layout>
-      ),
+      )
     },
     {
-      path: '/articles', 
+      path: '/articles',
       element: (
         <Layout>
-          <NewsArticles /> 
+          <NewsArticles />
         </Layout>
-      ),
+      )
     },
     {
-      path: '/articles/:id', 
+      path: '/articles/:id',
       element: (
         <Layout>
-          <DetailsNewsArticles /> 
+          <DetailsNewsArticles />
         </Layout>
-      ),
+      )
     },
     {
       path: '/userDashboard',
@@ -78,16 +75,16 @@ const AppRouter = () => {
       ]
     },
     {
-      path:'/signUp',
-      element:<NewRegister/>
+      path: '/signUp',
+      element: <NewRegister />
     },
     {
-      path:'/signIn',
-      element:<Login/>
+      path: '/signIn',
+      element: <Login />
     }
-  ]);
-  
-  return <RouterProvider router={router} />;
-};
+  ])
 
-export default AppRouter;
+  return <RouterProvider router={router} />
+}
+
+export default AppRouter

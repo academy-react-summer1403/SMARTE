@@ -1,27 +1,26 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
-import styles from './CourseDescription.module.css';
-import RelatedCourses from '../../common/RelatedCourses/RelatedCourses';
-import Comments from '../../common/Comments/Comments';
-import Headlines from '../Headlines/Headlines';
+import React, { useState } from 'react'
+import styles from './CourseDescription.module.css'
+import RelatedCourses from '../../common/RelatedCourses/RelatedCourses'
+import Comments from '../../common/Comments/Comments'
+import Headlines from '../Headlines/Headlines'
 
-
-import CategoryIcon from '../../../assets/images/icon/Frame(32).png';
-import PrerequisitesIcon from '../../../assets/images/icon/Frame(33).png';
-import ModeIcon from '../../../assets/images/icon/Frame(34).png';
-import StatusIcon from '../../../assets/images/icon/Frame(35).png';
-import StartDateIcon from '../../../assets/images/icon/Frame(36).png';
-import CompletionIcon from '../../../assets/images/icon/Frame(36).png';
-import SatisfactionIcon from '../../../assets/images/icon/Frame(30).png';
-import StudentIcon from '../../../assets/images/icon/Frame(31).png';
-import ProfileImage from '../../../assets/images/Ellipse 35.png';
+import CategoryIcon from '../../../assets/images/icon/Frame(32).png'
+import PrerequisitesIcon from '../../../assets/images/icon/Frame(33).png'
+import ModeIcon from '../../../assets/images/icon/Frame(34).png'
+import StatusIcon from '../../../assets/images/icon/Frame(35).png'
+import StartDateIcon from '../../../assets/images/icon/Frame(36).png'
+import CompletionIcon from '../../../assets/images/icon/Frame(36).png'
+import SatisfactionIcon from '../../../assets/images/icon/Frame(30).png'
+import StudentIcon from '../../../assets/images/icon/Frame(31).png'
+import ProfileImage from '../../../assets/images/Ellipse 35.png'
 
 const CourseDescription = () => {
-  const [showFullText, setShowFullText] = useState(false);
+  const [showFullText, setShowFullText] = useState(false)
 
   const handleShowMore = () => {
-    setShowFullText(!showFullText);
-  };
+    setShowFullText(!showFullText)
+  }
 
   const courseDetails = [
     { title: 'دسته بندی فــرانت اند', imgSrc: CategoryIcon },
@@ -29,24 +28,25 @@ const CourseDescription = () => {
     { title: 'نوع آموزش: حضوری و غیرحضوری', imgSrc: ModeIcon },
     { title: 'وضعیت دوره: درحال برگزاری', imgSrc: StatusIcon },
     { title: 'تاریخ شروع دوره: ۱۴۰۳/۰۲/۱۱', imgSrc: StartDateIcon },
-    { title: 'تاریخ پایان دوره: ۱۴۰۳/۰۲/۱۱', imgSrc: CompletionIcon },
-  ];
+    { title: 'تاریخ پایان دوره: ۱۴۰۳/۰۲/۱۱', imgSrc: CompletionIcon }
+  ]
 
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
         <div className={styles.leftcard}>
           <div className={styles.row}>
-            {[{ rating: '4.7', label: 'رضایت', imgSrc: SatisfactionIcon },
-              { rating: '216', label: 'دانشجو', imgSrc: StudentIcon }]
-              .map((item, index) => (
-                <div className={styles.column} key={index}>
-                  <div className={styles.spanContainer}>
-                    <span className={styles.spanItem}>{item.rating}</span>
-                    <span className={styles.spanItem}>{item.label}</span>
-                  </div>
-                  <img src={item.imgSrc} alt='آیکون' className={styles.icon} />
+            {[
+              { rating: '4.7', label: 'رضایت', imgSrc: SatisfactionIcon },
+              { rating: '216', label: 'دانشجو', imgSrc: StudentIcon }
+            ].map((item, index) => (
+              <div className={styles.column} key={index}>
+                <div className={styles.spanContainer}>
+                  <span className={styles.spanItem}>{item.rating}</span>
+                  <span className={styles.spanItem}>{item.label}</span>
                 </div>
+                <img src={item.imgSrc} alt='آیکون' className={styles.icon} />
+              </div>
             ))}
           </div>
           <div className={styles.newSpanContainer}>
@@ -60,12 +60,20 @@ const CourseDescription = () => {
             {courseDetails.map((detail, index) => (
               <div className={styles.singleItem} key={index}>
                 <h4 className={styles.itemTitle}>{detail.title}</h4>
-                <img src={detail.imgSrc} alt='آیکون' className={styles.iconRight} />
+                <img
+                  src={detail.imgSrc}
+                  alt='آیکون'
+                  className={styles.iconRight}
+                />
               </div>
             ))}
           </div>
           <div className={styles.imageContainer}>
-            <img src={ProfileImage} alt='عکس پروفایل' className={styles.profileImage} />
+            <img
+              src={ProfileImage}
+              alt='عکس پروفایل'
+              className={styles.profileImage}
+            />
             <button className={styles.profileButton}>پروفایل مدرس دوره</button>
           </div>
         </div>
@@ -111,7 +119,7 @@ const CourseDescription = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CourseDescription;
+export default CourseDescription

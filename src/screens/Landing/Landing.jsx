@@ -2,7 +2,7 @@ import LandingPage from '../../components/UserManagement/LandingPage/LandingPage
 const Landing = () => {
   return (
     <>
-    <LandingPage/>
+      <LandingPage />
     </>
   )
 }

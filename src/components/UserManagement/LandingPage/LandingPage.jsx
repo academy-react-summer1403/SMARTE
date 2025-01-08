@@ -5,7 +5,7 @@ import BestProfessors from '../../LandingComponents/BestProfessors/BestProfessor
 import PopularCategories from '../../LandingComponents/PopularCategories/PopularCategories'
 import TrainingCourse from '../../LandingComponents/TrainingCourse/TrainingCourse'
 import SchoolsTitle from '../../LandingComponents/SchoolsTitle/SchoolsTitle'
-const LandingPage= () => {
+const LandingPage = () => {
   return (
     <>
       <SchoolsTitle />

@@ -7,13 +7,13 @@ import rect41 from '../../../assets/images/Rectangle 41.png'
 import rect40 from '../../../assets/images/Rectangle 40.png'
 import rect42 from '../../../assets/images/Rectangle 42.png'
 import rect43 from '../../../assets/images/Rectangle 43.png'
-import { useNavigate } from 'react-router-dom' 
+import { useNavigate } from 'react-router-dom'
 
 const NewsArticles = () => {
-  const navigate = useNavigate() 
+  const navigate = useNavigate()
 
   const handleViewMore = () => {
-    navigate('/articles') 
+    navigate('/articles')
   }
 
   return (

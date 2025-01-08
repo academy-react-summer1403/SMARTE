@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
-import { Link } from 'react-router-dom'; 
-import styles from './TrainingCourseCard.module.css';
-import stars from '../../../assets/images/stars.png';
-import frame1 from '../../../assets/images/icon/Frame(1).png';
-import frame2 from '../../../assets/images/icon/Frame(2).png';
-import frame3 from '../../../assets/images/icon/Frame(3).png';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import styles from './TrainingCourseCard.module.css'
+import stars from '../../../assets/images/stars.png'
+import frame1 from '../../../assets/images/icon/Frame(1).png'
+import frame2 from '../../../assets/images/icon/Frame(2).png'
+import frame3 from '../../../assets/images/icon/Frame(3).png'
 
 const TrainingCourseCard = ({
   title,
@@ -15,7 +15,7 @@ const TrainingCourseCard = ({
   image,
   details,
   price,
-  id 
+  id
 }) => {
   return (
     <div className={styles.card}>
@@ -60,7 +60,7 @@ const TrainingCourseCard = ({
         <img src={frame1} alt='Icon' className={styles.icon} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TrainingCourseCard;
+export default TrainingCourseCard

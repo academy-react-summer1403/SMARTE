@@ -1,14 +1,12 @@
-
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React from 'react'
 import DetailsNewsArticlesPage from '../../../components/UserManagement/DetailsNewsArticlesPage/DetailsNewsArticlesPage'
 const DetailsNewsArticles = () => {
   return (
     <>
-      <DetailsNewsArticlesPage/>
-      
+      <DetailsNewsArticlesPage />
     </>
-  );
-};
+  )
+}
 
-export default DetailsNewsArticles;
+export default DetailsNewsArticles

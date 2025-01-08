@@ -4,45 +4,40 @@ import styles from './DetailsCard.module.css'
 import Comments from '../../common/Comments/Comments'
 import RelatedCourses from '../../common/RelatedCourses/RelatedCourses'
 
-
-import ProfileImage from '../../../assets/images/Rectangle 100.png';
-import CourseImage1 from '../../../assets/images/rel course pic(1).png';
-import CourseImage2 from '../../../assets/images/rel course pic(2).png';
-import CourseImage3 from '../../../assets/images/rel course pic(3).png';
-import ReactImage from '../../../assets/images/reactjs-1 1.png';
-import ButtonIcon from '../../../assets/images/icon/Frame(19).png';
-import ThumbIcon from '../../../assets/images/icon/Frame(22).png';
-import ExtraIcon from '../../../assets/images/icon/Frame(21).png';
-import UserIcon from '../../../assets/images/icon/Frame(20).png';
-import StarIcon from '../../../assets/images/Group 43.png';
+import ProfileImage from '../../../assets/images/Rectangle 100.png'
+import CourseImage1 from '../../../assets/images/rel course pic(1).png'
+import CourseImage2 from '../../../assets/images/rel course pic(2).png'
+import CourseImage3 from '../../../assets/images/rel course pic(3).png'
+import ReactImage from '../../../assets/images/reactjs-1 1.png'
+import ButtonIcon from '../../../assets/images/icon/Frame(19).png'
+import ThumbIcon from '../../../assets/images/icon/Frame(22).png'
+import ExtraIcon from '../../../assets/images/icon/Frame(21).png'
+import UserIcon from '../../../assets/images/icon/Frame(20).png'
+import StarIcon from '../../../assets/images/Group 43.png'
 
 const DetailsCard = () => {
   const recommendedTopics = [
     { title: 'همه چیز در مورد انگولار', imgSrc: CourseImage1 },
     { title: 'چگونه برای سایتمان پشتیبان بهتری باشیم ؟', imgSrc: CourseImage2 },
     { title: 'چرا فیگما را انتخاب کنیم؟', imgSrc: CourseImage3 }
-  ];
+  ]
 
-  const renderItem = (item) => (
+  const renderItem = item => (
     <div className={styles.rowItemSecondary} key={item.title}>
       <span className={styles.itemTitle}>{item.title}</span>
-      <img src={item.imgSrc} alt="Icon" className={styles.itemImage} />
+      <img src={item.imgSrc} alt='Icon' className={styles.itemImage} />
       <button className={styles.itemButton}>
-        <img
-          src={ButtonIcon}
-          alt="Button Icon"
-          className={styles.buttonIcon}
-        />{' '}
+        <img src={ButtonIcon} alt='Button Icon' className={styles.buttonIcon} />{' '}
         مشاهده دوره
       </button>
     </div>
-  );
+  )
 
-  const [showFullText, setShowFullText] = useState(false);
+  const [showFullText, setShowFullText] = useState(false)
 
   const handleShowMore = () => {
-    setShowFullText(!showFullText);
-  };
+    setShowFullText(!showFullText)
+  }
 
   return (
     <div className={styles.container}>
@@ -51,7 +46,7 @@ const DetailsCard = () => {
           <div className={styles.imageContainer}>
             <img
               src={ProfileImage}
-              alt="Profile"
+              alt='Profile'
               className={styles.profileImage}
             />
           </div>
@@ -74,30 +69,17 @@ const DetailsCard = () => {
             ری اکت چیست و چه کاربرد هایی دارد؟ + ۵ دلیل استفاده از ری اکت
           </h1>
           <div className={styles.iconsRow}>
-           
             <span className={styles.iconText}>
-              <img
-                src={ThumbIcon}
-                alt="Icon 1"
-                className={styles.icon}
-              />{' '}
-              مهدی اصغری
+              <img src={ThumbIcon} alt='Icon 1' className={styles.icon} /> مهدی
+              اصغری
             </span>
             <span className={styles.iconText}>
-              <img
-                src={ExtraIcon}
-                alt="Icon 2"
-                className={styles.icon}
-              />{' '}
+              <img src={ExtraIcon} alt='Icon 2' className={styles.icon} />{' '}
               ۱۴۰۳/۰۱/۱۸
             </span>
             <span className={styles.iconText}>
-              <img
-                src={UserIcon}
-                alt="Icon 3"
-                className={styles.icon}
-              />{' '}
-              ۵۶ بازدید
+              <img src={UserIcon} alt='Icon 3' className={styles.icon} /> ۵۶
+              بازدید
             </span>
           </div>
         </div>
@@ -123,7 +105,7 @@ const DetailsCard = () => {
           </div>
           <img
             src={ReactImage}
-            alt="Middle Image"
+            alt='Middle Image'
             className={styles.middleImage}
           />
           <div className={showFullText ? styles.textFull : styles.textPartial}>
@@ -168,35 +150,19 @@ const DetailsCard = () => {
           </button>
         </div>
         <div className={styles.ratingBox}>
-          <img
-            src={ThumbIcon}
-            alt="Thumb Icon"
-            className={styles.icon}
-          />
+          <img src={ThumbIcon} alt='Thumb Icon' className={styles.icon} />
           <span className={styles.ratingCount}>120</span>
-          <img
-            src={ExtraIcon}
-            alt="Extra Icon"
-            className={styles.icon}
-          />
+          <img src={ExtraIcon} alt='Extra Icon' className={styles.icon} />
           <span className={styles.additionalText}>1</span>
           <span className={styles.ratingNumber}>اشتراک گزاری</span>
-          <img
-            src={UserIcon}
-            alt="User Icon"
-            className={styles.icon}
-          />
-          <img
-            src={StarIcon}
-            alt="Star Icon"
-            className={styles.icon1}
-          />
+          <img src={UserIcon} alt='User Icon' className={styles.icon} />
+          <img src={StarIcon} alt='Star Icon' className={styles.icon1} />
           <span className={styles.ratingText}>امتیاز ۳۵ نفر</span>
         </div>
         <Comments />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default DetailsCard;
+export default DetailsCard
